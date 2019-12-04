@@ -8,4 +8,11 @@
   <ItemGroup>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Home\EmptyCSSFile.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\About.css" />
+    <Content Remove="Views\Home\Contact.css" />
+  </ItemGroup>
 </Project>
