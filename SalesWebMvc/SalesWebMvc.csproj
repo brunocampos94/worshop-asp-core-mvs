@@ -14,5 +14,11 @@
   <ItemGroup>
     <Content Remove="Views\Home\About.css" />
     <Content Remove="Views\Home\Contact.css" />
+    <Content Remove="Views\Departments\_ViewStart.cshtml" />
+    <Content Remove="Views\Departments\_ViewImports.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\ViewModels\" />
+    <Folder Include="Views\Departments\" />
   </ItemGroup>
 </Project>
